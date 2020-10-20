@@ -31,15 +31,15 @@ public class Goldpreis {
                 String s = sc.nextLine();
                 String[] temp = s.split("\t");
                 try {
-                    preis = Double.parseDouble(temp[1].substring(0, 1));
+                    preis = Double.parseDouble(temp[1].substring(0, 1)); //Ist der Preis "Kein Nachweis"
                     char[] c = temp[1].toCharArray();
                     int punktIndex = temp[1].indexOf(".");
                     int kommaIndex = temp[1].indexOf(",");
-                    c[punktIndex] = 0;
+                    c[punktIndex] = (char) 0; // (char) 48 = '0'; (char) 0 = '';
                     c[kommaIndex] = '.';
                     temp[1] = "";
                     for (char value : c) {
-                        if (value != 0) {
+                        if (value != (char) 0) {
                             temp[1] += value;
                         }
                     }
@@ -95,13 +95,13 @@ public class Goldpreis {
                 preismax = list.get(i).preis;
                 datummax = list.get(i).datum;
             }
-            if ((list.get(i).preis < preismin) && (list.get(i).preis > 0)) {
+            if ((list.get(i).preis < preismin || preismin < 0) && (list.get(i).preis > 0)) {
                 preismin = list.get(i).preis;
                 datummin = list.get(i).datum;
             }
         }
-        System.out.println("Am " + datummin + " war der Mindestpreis von: " + preismin);
-        System.out.println("Am " + datummax + " war der Höchstpreis von: " + preismax);
+        System.out.println("Am " + datummin + " war der Mindestpreis: " + preismin);
+        System.out.println("Am " + datummax + " war der Höchstpreis: " + preismax);
     }
 
     public static void main(String[] args) {
