@@ -109,5 +109,6 @@ public class Goldpreis {
         System.out.println(test.getPreis("2009-10-20")); // 22870.0
         System.out.println(test.getPreis("2009-02-07")); // -1
         test.printMinMax();
+
     }
 }
