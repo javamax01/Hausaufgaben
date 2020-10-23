@@ -1,0 +1,23 @@
+Lars Kloeser;kloeser@itc.rwth-aachen.de
+Jan Delember;delember@itc.rwth-aachen.de
+Svenja Schmidt;s.schmidt@itc.rwth-aachen.de
+Nicole Vonderbank;vonderbank@itc.rwth-aachen.de
+Daniel Weinholz;Weinholz@itc.rwth-aachen.de
+Louai Ben Yahia;BenYahia@itc.rwth-aachen.de
+Renate Didolff;didolff@itc.rwth-aachen.de
+Jürgen Dietel;dietel@itc.rwth-aachen.de
+Alina Heinze;heinze@itc.rwth-aachen.de
+Tobias Nelles;nelles@itc.rwth-aachen.de
+Bastian Küppers;kueppers@itc.rwth-aachen.de
+Sascha Michels;michels@itc.rwth-aachen.de
+Hans Joachim Pflug;pflug@itc.rwth-aachen.de
+Jonas Schütz;schuetz@itc.rwth-aachen.de
+Camilla Lummerzheim;lummerzheim@itc.rwth-aachen.de
+Claudia Keverpütz;keverpuetz@itc.rwth-aachen.de
+Benno Willemsen;willemsen@itc.rwth-aachen.de
+Richard Zameitat;zameitat@itc.rwth-aachen.de
+Thomas Eifert;eifert@itc.rwth-aachen.de
+Lisa Lampka;lampka@itc.rwth-aachen.de
+Julia Opgen-Rhein;opgen-rhein@itc.rwth-aachen.de
+Adrian Sondermann;sondermann@itc.rwth-aachen.de
+Daniel Walkenhaus;walkenhaus@itc.rwth-aachen.de
